@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "fontGame";
+    src: url('../../assets/font/Pony.ttf')
+}
+
+.bg-taixiu {
+    background: url('../../assets/taixiu/bgGame.png');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: "fontGame";
+
+    .heading-style {
+        margin-top: 100px;
+    }
+
+    .options-style {
+        width: 200px;
+        height: 200px;
+        font-size: 48px;
+        border: 5px solid rgb(78, 230, 78);
+        color: white
+    }
+
+    .thongtin-style {
+        font-size: 32px;
+    }
+}
